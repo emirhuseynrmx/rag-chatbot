@@ -23,3 +23,4 @@ def test_ask_endpoint(tmp_path, monkeypatch) -> None:
 
     assert response.status_code == 200
     assert response.json()["sources"]
+    assert response.json()["retrieved_chunks"]

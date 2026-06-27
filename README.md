@@ -14,6 +14,8 @@ The system retrieves relevant document chunks and answers with source-aware cont
 - build a local TF-IDF vector store
 - retrieve relevant chunks for a question
 - generate a source-aware answer context
+- return retrieved chunk ids, source paths, scores, and previews
+- store chunking metadata with the local vector store
 - expose `/ask` and `/health` with FastAPI
 - tested without external API calls
 

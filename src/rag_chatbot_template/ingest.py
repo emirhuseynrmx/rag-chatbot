@@ -23,7 +23,14 @@ def build_store(documents_dir: Path, *, chunk_size: int = 600, overlap: int = 10
                     text=chunk,
                 )
             )
-    return VectorStore(chunks=chunks)
+    return VectorStore(
+        chunks=chunks,
+        metadata={
+            "documents_dir": str(documents_dir),
+            "chunk_size": chunk_size,
+            "overlap": overlap,
+        },
+    )
 
 
 @app.command()

@@ -18,6 +18,7 @@ class RagAnswer(BaseModel):
     question: str
     answer: str
     sources: list[str]
+    retrieved_chunks: list[dict[str, str | float]]
 
 
 def build_answer(question: str, retrieved: list[RetrievedChunk]) -> RagAnswer:
@@ -26,6 +27,7 @@ def build_answer(question: str, retrieved: list[RetrievedChunk]) -> RagAnswer:
             question=question,
             answer="No relevant document chunks were found for this question.",
             sources=[],
+            retrieved_chunks=[],
         )
     context = "\n\n".join(
         f"[{index}] Source: {item.chunk.source}\n{item.chunk.text}"
@@ -39,6 +41,15 @@ def build_answer(question: str, retrieved: list[RetrievedChunk]) -> RagAnswer:
             f"Question: {question}\n\nContext:\n{context}"
         ),
         sources=sorted({item.chunk.source for item in retrieved}),
+        retrieved_chunks=[
+            {
+                "id": item.chunk.id,
+                "source": item.chunk.source,
+                "score": item.score,
+                "preview": item.chunk.text[:240],
+            }
+            for item in retrieved
+        ],
     )
 
 

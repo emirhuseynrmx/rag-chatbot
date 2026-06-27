@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from pydantic import BaseModel, ConfigDict
+from pydantic import BaseModel, ConfigDict, Field
 
 
 class Chunk(BaseModel):
@@ -18,6 +18,7 @@ class VectorStore(BaseModel):
     model_config = ConfigDict(frozen=True)
 
     chunks: list[Chunk]
+    metadata: dict[str, str | int] = Field(default_factory=dict)
 
     def save(self, path: Path) -> Path:
         path.parent.mkdir(parents=True, exist_ok=True)
