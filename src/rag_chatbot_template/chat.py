@@ -87,8 +87,7 @@ def _generate_answer(question: str, context: str) -> tuple[str, str]:
         return answer, "gemini/gemini-1.5-flash"
 
     fallback = (
-        "Retrieved context "
-        "(set OPENAI_API_KEY or GEMINI_API_KEY for AI-generated answers):\n\n"
+        "Context (set OPENAI_API_KEY or GEMINI_API_KEY for AI-generated answers):\n\n"
         + context
     )
     return fallback, "retrieval-only"
