@@ -11,3 +11,8 @@ build/
 *.egg-info/
 vector_store/*
 !vector_store/.gitkeep
+!vector_store/store.json
+outputs/*
+!outputs/.gitkeep
+!outputs/chat_session.txt
+!outputs/manifest.json

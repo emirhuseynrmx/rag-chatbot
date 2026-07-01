@@ -1,0 +1,47 @@
+﻿{
+    "run_at":  "2026-07-01T06:27:20Z",
+    "runtime_seconds":  10.4,
+    "cli":  "uv run rag-ingest documents/ \u0026\u0026 uv run rag-chat \u003cquestion\u003e",
+    "documents_ingested":  1,
+    "chunks_indexed":  15,
+    "questions_asked":  6,
+    "top_k":  3,
+    "store":  "vector_store/store.json",
+    "outputs":  [
+                    "outputs/chat_session.txt",
+                    "outputs/manifest.json",
+                    "vector_store/store.json"
+                ],
+    "sample_queries":  [
+                           {
+                               "question":  "What is the refund policy?",
+                               "retrieved_chunks":  3,
+                               "answer_preview":  "Use the retrieved context below to answer the question. Review the sources before sending a final response.\r\n\r\nQuestion: What is the refund policy?\r\n\r\nContext:\r\n[1] Source: documents\\company_policy.tx"
+                           },
+                           {
+                               "question":  "How long does a typical project take?",
+                               "retrieved_chunks":  3,
+                               "answer_preview":  "Use the retrieved context below to answer the question. Review the sources before sending a final response.\r\n\r\nQuestion: How long does a typical project take?\r\n\r\nContext:\r\n[1] Source: documents\\compan"
+                           },
+                           {
+                               "question":  "What payment methods do you accept?",
+                               "retrieved_chunks":  3,
+                               "answer_preview":  "Use the retrieved context below to answer the question. Review the sources before sending a final response.\r\n\r\nQuestion: What payment methods do you accept?\r\n\r\nContext:\r\n[1] Source: documents\\company_"
+                           },
+                           {
+                               "question":  "Do you offer ongoing maintenance?",
+                               "retrieved_chunks":  3,
+                               "answer_preview":  "Use the retrieved context below to answer the question. Review the sources before sending a final response.\r\n\r\nQuestion: Do you offer ongoing maintenance?\r\n\r\nContext:\r\n[1] Source: documents\\company_po"
+                           },
+                           {
+                               "question":  "Is my data safe?",
+                               "retrieved_chunks":  3,
+                               "answer_preview":  "Use the retrieved context below to answer the question. Review the sources before sending a final response.\r\n\r\nQuestion: Is my data safe?\r\n\r\nContext:\r\n[1] Source: documents\\company_policy.txt\r\ne Works"
+                           },
+                           {
+                               "question":  "What is included in the Growth Package?",
+                               "retrieved_chunks":  3,
+                               "answer_preview":  "Use the retrieved context below to answer the question. Review the sources before sending a final response.\r\n\r\nQuestion: What is included in the Growth Package?\r\n\r\nContext:\r\n[1] Source: documents\\comp"
+                           }
+                       ]
+}

@@ -1,0 +1,108 @@
+﻿Q: What is the refund policy?
+Use the retrieved context below to answer the question. Review the sources before sending a final response.
+
+Question: What is the refund policy?
+
+Context:
+[1] Source: documents\company_policy.txt
+a function without hiring full-time Hourly Consulting (€95/hour) - Code review, architecture advice, debugging sessions - Minimum booking: 2 hours - Billed in 30-minute increments thereafter Custom quotes are provided within 24 hours. Contact us with your dataset size, integration requirements, and expected output format. REFUND POLICY ------------- We offer a satisfaction guarantee on all fixed-scope deliverables. - Within 7 days of delivery: Full refund if the deliverable does not match the agreed specification in the signed statement of work. - Days 8–14: 50% refund if a material defect is 
+
+[2] Source: documents\company_policy.txt
+reed specification in the signed statement of work. - Days 8–14: 50% refund if a material defect is identified. - After 14 days: No refund, but we will address critical bugs at no charge for 30 days post-delivery. Refund requests must be submitted in writing to support@dataflow-analytics.io with the project reference number. Refunds are processed within 5 business days via the original payment method (bank transfer or Stripe). Hourly consulting sessions are non-refundable once completed. SUPPORT POLICY -------------- - Standard Support: included with all packages; responses within 24 business 
+
+[3] Source: documents\company_policy.txt
+red on encrypted EU-region servers (Hetzner Cloud, Frankfurt). INTELLECTUAL PROPERTY --------------------- - Code and models developed for a client become the client's property upon full payment of the final invoice. - We retain the right to describe the project type (not data or code) in our portfolio with client approval. - Open-source libraries used remain under their respective licenses. CANCELLATION ------------ - Before work starts: full refund of the upfront payment. - After kick-off but before 50% completion: 50% of the upfront payment is retained. - After 50% completion: full upfront 
+
+Sources:
+- documents\company_policy.txt
+
+Q: How long does a typical project take?
+Use the retrieved context below to answer the question. Review the sources before sending a final response.
+
+Question: How long does a typical project take?
+
+Context:
+[1] Source: documents\company_policy.txt
+before 50% completion: 50% of the upfront payment is retained. - After 50% completion: full upfront payment is retained; no further charges. Cancellation must be sent in writing to contact@dataflow-analytics.io. FREQUENTLY ASKED QUESTIONS -------------------------- Q: How long does a typical project take? A: Starter projects: 3-5 business days. Growth projects: 10-15 business days. Enterprise projects: 4-12 weeks depending on scope. Timelines are confirmed in the statement of work before work begins. Q: Do you work with non-technical clients? A: Yes. We handle all technical aspects. You provid
+
+[2] Source: documents\company_policy.txt
+ing? A: Yes. A 30-minute discovery call is free and non-binding. Book via contact@dataflow-analytics.io with a brief description of your project. Q: What if the model accuracy is not good enough? A: We define accuracy targets and evaluation metrics in the statement of work. If the delivered model does not meet the agreed benchmark on your holdout set, we iterate until it does at no extra charge within the 30-day support window. Q: Do you provide the code or only the output? A: By default we deliver both the production code and the output (report, model, API). Code comes with documentation and 
+
+[3] Source: documents\company_policy.txt
+a function without hiring full-time Hourly Consulting (€95/hour) - Code review, architecture advice, debugging sessions - Minimum booking: 2 hours - Billed in 30-minute increments thereafter Custom quotes are provided within 24 hours. Contact us with your dataset size, integration requirements, and expected output format. REFUND POLICY ------------- We offer a satisfaction guarantee on all fixed-scope deliverables. - Within 7 days of delivery: Full refund if the deliverable does not match the agreed specification in the signed statement of work. - Days 8–14: 50% refund if a material defect is 
+
+Sources:
+- documents\company_policy.txt
+
+Q: What payment methods do you accept?
+Use the retrieved context below to answer the question. Review the sources before sending a final response.
+
+Question: What payment methods do you accept?
+
+Context:
+[1] Source: documents\company_policy.txt
+kDB Models: Pickle, ONNX, Joblib, Hugging Face Hub upload Default format is CSV + PDF report unless otherwise specified. Format changes after delivery are included in the 30-day support window. PAYMENT TERMS ------------- - Fixed-scope projects: 50% upfront, 50% on delivery. - Retainer packages: monthly in advance on the 1st of each month. - Hourly sessions: invoiced weekly; due within 7 days. - Payment methods: SEPA bank transfer, Stripe (Visa/Mastercard/AMEX), Wise. - Late payment (>14 days): 1.5% monthly interest applied automatically. Invoices are issued in EUR. Currency conversion at Stri
+
+[2] Source: documents\company_policy.txt
+red on encrypted EU-region servers (Hetzner Cloud, Frankfurt). INTELLECTUAL PROPERTY --------------------- - Code and models developed for a client become the client's property upon full payment of the final invoice. - We retain the right to describe the project type (not data or code) in our portfolio with client approval. - Open-source libraries used remain under their respective licenses. CANCELLATION ------------ - Before work starts: full refund of the upfront payment. - After kick-off but before 50% completion: 50% of the upfront payment is retained. - After 50% completion: full upfront 
+
+[3] Source: documents\company_policy.txt
+before 50% completion: 50% of the upfront payment is retained. - After 50% completion: full upfront payment is retained; no further charges. Cancellation must be sent in writing to contact@dataflow-analytics.io. FREQUENTLY ASKED QUESTIONS -------------------------- Q: How long does a typical project take? A: Starter projects: 3-5 business days. Growth projects: 10-15 business days. Enterprise projects: 4-12 weeks depending on scope. Timelines are confirmed in the statement of work before work begins. Q: Do you work with non-technical clients? A: Yes. We handle all technical aspects. You provid
+
+Sources:
+- documents\company_policy.txt
+
+Q: Do you offer ongoing maintenance?
+Use the retrieved context below to answer the question. Review the sources before sending a final response.
+
+Question: Do you offer ongoing maintenance?
+
+Context:
+[1] Source: documents\company_policy.txt
+e Workspace, Notion, Airtable, Telegram, Slack, and major CRMs (HubSpot, Pipedrive, Salesforce). Q: Do you offer ongoing maintenance? A: Yes. Retainer packages (€1,200/month) include monitoring, monthly model retraining, dashboard updates, and up to 10 hours of development per month. Q: Is my data safe? A: Yes. All data is stored on EU-region encrypted servers. We sign NDAs on request and delete all client data within 30 days of project completion. Q: Can I get a free consultation before committing? A: Yes. A 30-minute discovery call is free and non-binding. Book via contact@dataflow-analytics
+
+[2] Source: documents\company_policy.txt
+ver both the production code and the output (report, model, API). Code comes with documentation and a brief handover session. Q: Can you train our team? A: Yes. We offer 2-hour onboarding sessions (€190) and structured training workshops (€450/day) covering Python data stacks, ML pipelines, or dashboard tools.
+
+[3] Source: documents\company_policy.txt
+ndpoint or Telegram bot delivery - Delivery within 10-15 business days - Includes two revision rounds and 30-day post-launch support - Best for: churn prediction, lead scoring, pricing optimization Enterprise Package (€8,000+) - End-to-end data platform: ingestion, storage, modelling, deployment - Custom ML pipeline with SHAP explainability and drift monitoring - Team onboarding and knowledge transfer sessions - Ongoing retainer option (€1,200/month) - Best for: companies needing a dedicated data function without hiring full-time Hourly Consulting (€95/hour) - Code review, architecture advice,
+
+Sources:
+- documents\company_policy.txt
+
+Q: Is my data safe?
+Use the retrieved context below to answer the question. Review the sources before sending a final response.
+
+Question: Is my data safe?
+
+Context:
+[1] Source: documents\company_policy.txt
+e Workspace, Notion, Airtable, Telegram, Slack, and major CRMs (HubSpot, Pipedrive, Salesforce). Q: Do you offer ongoing maintenance? A: Yes. Retainer packages (€1,200/month) include monitoring, monthly model retraining, dashboard updates, and up to 10 hours of development per month. Q: Is my data safe? A: Yes. All data is stored on EU-region encrypted servers. We sign NDAs on request and delete all client data within 30 days of project completion. Q: Can I get a free consultation before committing? A: Yes. A 30-minute discovery call is free and non-binding. Book via contact@dataflow-analytics
+
+[2] Source: documents\company_policy.txt
+1.5% monthly interest applied automatically. Invoices are issued in EUR. Currency conversion at Stripe's daily rate for non-EUR payments. CONFIDENTIALITY --------------- All client data is treated as strictly confidential. We: - Process data only for the purpose of the agreed project. - Do not share client data with third parties. - Delete all client data within 30 days of project completion unless a longer retention period is agreed in writing. - Sign an NDA upon request at no cost. Data is stored on encrypted EU-region servers (Hetzner Cloud, Frankfurt). INTELLECTUAL PROPERTY ---------------
+
+[3] Source: documents\company_policy.txt
+gins. Q: Do you work with non-technical clients? A: Yes. We handle all technical aspects. You provide your data and business context; we handle the engineering, modelling, and reporting. Q: What data formats do you accept as input? A: CSV, Excel, JSON, Parquet, PostgreSQL, MySQL, Google Sheets, and REST API endpoints. If your data is in a different format, contact us and we will evaluate compatibility. Q: Can you integrate with our existing tools? A: We commonly integrate with Zapier, n8n, Google Workspace, Notion, Airtable, Telegram, Slack, and major CRMs (HubSpot, Pipedrive, Salesforce). Q: 
+
+Sources:
+- documents\company_policy.txt
+
+Q: What is included in the Growth Package?
+Use the retrieved context below to answer the question. Review the sources before sending a final response.
+
+Question: What is included in the Growth Package?
+
+Context:
+[1] Source: documents\company_policy.txt
+ICING -------------------- All pricing is in EUR and excludes VAT where applicable. Starter Package (€1,500 – €3,000) - One-time data pipeline or cleaning script - Single dashboard or PDF report - Delivery within 5 business days - Includes one revision round - Best for: one-off CSV cleaning, simple automation, basic reporting Growth Package (€3,000 – €8,000) - Full ETL pipeline with monitoring and alerts - Machine learning model (classification or regression) with explanation report - REST API endpoint or Telegram bot delivery - Delivery within 10-15 business days - Includes two revision round
+
+[2] Source: documents\company_policy.txt
+before 50% completion: 50% of the upfront payment is retained. - After 50% completion: full upfront payment is retained; no further charges. Cancellation must be sent in writing to contact@dataflow-analytics.io. FREQUENTLY ASKED QUESTIONS -------------------------- Q: How long does a typical project take? A: Starter projects: 3-5 business days. Growth projects: 10-15 business days. Enterprise projects: 4-12 weeks depending on scope. Timelines are confirmed in the statement of work before work begins. Q: Do you work with non-technical clients? A: Yes. We handle all technical aspects. You provid
+
+[3] Source: documents\company_policy.txt
+reed specification in the signed statement of work. - Days 8–14: 50% refund if a material defect is identified. - After 14 days: No refund, but we will address critical bugs at no charge for 30 days post-delivery. Refund requests must be submitted in writing to support@dataflow-analytics.io with the project reference number. Refunds are processed within 5 business days via the original payment method (bank transfer or Stripe). Hourly consulting sessions are non-refundable once completed. SUPPORT POLICY -------------- - Standard Support: included with all packages; responses within 24 business 
+
+Sources:
+- documents\company_policy.txt
+
