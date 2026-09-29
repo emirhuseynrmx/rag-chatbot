@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="200" viewBox="0 0 720 200" role="img" aria-label="RAG Chatbot Template">
+  <rect width="720" height="200" rx="20" fill="#ffffff"/>
+  <g transform="translate(36 40)"><rect x="8" y="8" width="64" height="84" rx="10" fill="#f6f8fa" stroke="#afb8c1" stroke-width="2.5"/>
+<rect x="20" y="24" width="40" height="6" rx="3" fill="#afb8c1"/><rect x="20" y="38" width="32" height="6" rx="3" fill="#862e9c"/>
+<rect x="20" y="52" width="40" height="6" rx="3" fill="#afb8c1"/><rect x="20" y="66" width="26" height="6" rx="3" fill="#afb8c1"/>
+<path d="M58 60 h46 a8 8 0 0 1 8 8 v26 a8 8 0 0 1 -8 8 h-26 l-14 12 v-12 h-6 a8 8 0 0 1 -8 -8 v-26 a8 8 0 0 1 8 -8 z" fill="#862e9c"/>
+<rect x="68" y="74" width="32" height="5" rx="2.5" fill="#ffffff"/><rect x="68" y="85" width="20" height="5" rx="2.5" fill="#ffffff"/></g>
+  <text x="186" y="100" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="43" font-weight="700" fill="#1f2328" letter-spacing="-0.5">RAG Chatbot Template</text>
+  <text x="187" y="134" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#6e7781">Ask your documents, get answers with sources</text>
+</svg>

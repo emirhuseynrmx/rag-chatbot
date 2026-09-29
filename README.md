@@ -1,6 +1,11 @@
-# RAG Chatbot Template
+<h1>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.svg">
+    <img src="assets/logo-light.svg" alt="RAG Chatbot Template" width="620">
+  </picture>
+</h1>
 
-[![CI](https://github.com/emirhuseynrmx/rag-chatbot-template/actions/workflows/ci.yml/badge.svg)](https://github.com/emirhuseynrmx/rag-chatbot-template/actions)
+[![CI](https://github.com/emirhuseynrmx/rag-chatbot/actions/workflows/ci.yml/badge.svg)](https://github.com/emirhuseynrmx/rag-chatbot/actions)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 
 Local RAG chatbot template for documents, source-aware retrieval, and optional FastAPI endpoints.
